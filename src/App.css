@@ -1,0 +1,16 @@
+.header{
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #5679;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+}
+.footer{
+    height: 50px;
+    border-top: 2px solid #5679 ;
+    text-align: center;
+}
