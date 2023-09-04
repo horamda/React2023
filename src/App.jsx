@@ -2,6 +2,7 @@ import { BrowserRouter,Routes,Route} from 'react-router-dom'
 import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Productos from './components/Productos'
 
 function App() {
   
@@ -10,7 +11,7 @@ function App() {
 <BrowserRouter>
 <Header/>
 <Routes>
-  <Route path="/" element={<h1>HolaMundo</h1>}/>
+  <Route path="/" element={<Productos/>}/>
 </Routes>
 <Footer/>
 </BrowserRouter>
